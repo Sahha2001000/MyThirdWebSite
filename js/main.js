@@ -6,4 +6,12 @@ $('.header__slider-items').slick({
   slidesToShow: 1,
   arrows: false,
   dotsClass: "header__slick-dots"
+
+ 
 }); 
+$('.header__top-btn').on('click', function () {
+  $('.menu').addClass('active');
+});
+$('.menu__btn-close').on('click', function(){
+$('.menu').removeClass('active');
+});
