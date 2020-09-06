@@ -41,7 +41,7 @@ HEADER START(TEXT AND NAVIGATION)
 */
 
 .header {
-    height: 1000px;
+    height: 900px;
     position: absolute;
     z-index: 3;
     right: 0;
@@ -156,7 +156,7 @@ HEADER START(TEXT AND NAVIGATION)
 }
 
 .menu__list {
-    height: 1000px;
+    height: 900px;
     display: flex;
     align-items: center;
 }
@@ -196,7 +196,7 @@ HEADER SLIDER START
 .header__slider {}
 
 .header__slider-item {
-    height: 1000px;
+    height: 900px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -388,7 +388,7 @@ HEADER SLIDER START
 }
 
 .design__content-block__2-text {
-    padding-left: 75px;
+    margin-left: 75px;
     margin-top: 30px;
 }
 
